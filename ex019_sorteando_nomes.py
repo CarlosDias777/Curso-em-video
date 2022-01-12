@@ -1,0 +1,10 @@
+from random import choice
+print('Alunos para serem sorteados a apagar o quadro!')
+print('-' * 46)
+nome1 = input('Digite o nome do aluno: ')
+nome2 = input('Digite o nome do aluno: ')
+nome3 = input('Digite o nome do aluno: ')
+nome4 = input('Digite o nome do aluno: ')
+rand = choice([nome1,nome2,nome3,nome4])
+print('-' * 46)
+print('O aluno sorteado foi {}!'.format(rand))

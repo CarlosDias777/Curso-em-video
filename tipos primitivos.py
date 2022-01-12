@@ -1,0 +1,5 @@
+n1 = str(input('digite algo: '))
+inteiro = int(input('Digite um valor inteiro: '))
+flo = float(input('Digite um valor floating: '))
+boolean = bool(input('Digite um valor boolean: '))
+print(type(n1), type(inteiro), type(flo), type(boolean))

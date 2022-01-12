@@ -1,0 +1,10 @@
+nome = str(input('Digite seu nome: ')).strip()
+up_nome = nome.upper()
+low_nome = nome.lower()
+contar_nome = nome.count(' ')
+split_nome = nome.split()
+primeiro_nome = split_nome[0]
+print('Seu nome em maisculas fica:',up_nome)
+print('Seu nome em minusculas fica:',low_nome)
+print('A quantidade de letras que seu nome tem é:',len(nome) - contar_nome)
+print('A quantidade de letras do seu primeiro nome é:',len(primeiro_nome))

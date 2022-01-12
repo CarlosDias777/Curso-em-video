@@ -1,0 +1,8 @@
+valor = input('Digite algo: ')
+print(type(valor))
+print('É alphanumerico? {}' .format(valor.isalnum()))
+print('É apenas um numero? {}' .format(valor.isnumeric()))
+print('Tem apenas letras? {}' .format(valor.isalpha()))
+print('Está em maisculo? {}' .format(valor.isupper()))
+print('Está em minusculo? {}' .format(valor.islower()))
+print('É so espaço? {}' .format(valor.isspace()))
