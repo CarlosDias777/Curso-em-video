@@ -1,6 +1,7 @@
 altura = float(input('Qual a sua altura em metros? '))
 massa = float(input('Qual a sua massa(peso) em kg? '))
-imc = massa / (altura * altura) #altura vezes 2 é diferente de altura vezes altura, wtf???
+imc = massa / (altura ** altura) #altura vezes 2 é diferente de altura vezes altura, wtf???
+print('seu imc é de',imc)
 if imc < 18.5:
     print('Voce é MAGRO de acordo com o indice de massa corporal')
 elif imc > 18.5 and imc < 25:
