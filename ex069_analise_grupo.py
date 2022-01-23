@@ -6,9 +6,9 @@ while True:
     sexo = str(input('Digite o sexo da pessoa:[M/F] ')).strip().lower()
 
     sexo = str(input('Digite o sexo da pessoa:[M/F] ')).strip().lower()
-    if sexo != 'm' and sexo != 'f':
-        while sexo != 'm' and sexo != 'f':
-            sexo = str(input('Digite o sexo da pessoa:[M/F] ')).strip().lower()
+    
+    while sexo not in 'mf':
+        sexo = str(input('Digite o sexo da pessoa:[M/F] ')).strip().lower()
     print('=!='*20)
 
     if idade > 18:

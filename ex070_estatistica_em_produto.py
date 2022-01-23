@@ -17,9 +17,8 @@ while True:
         prod_nome = nome
 
     continuar = str(input('Quer continuar?[S/N] ')).strip().lower()
-    if continuar != 'n ' and continuar != 's':
-        while continuar != 'n' and continuar != 's':
-            continuar = str(input('Quer continuar?[S/N] ')).strip().lower()
+    while continuar not in 'sn':
+        continuar = str(input('Quer continuar?[S/N] ')).strip().lower()
 
     if continuar == 's':
         print('=!='*25)
